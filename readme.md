@@ -22,5 +22,7 @@
 	创建+切换分支： git checkout -b <name>
 	合并分支到当前分支： git merge <name>
 	删除分支： git branch -d <name>
+	分支冲突解决方案： 把 git 合并失败的文件手动编辑为我们希望的内容，再提交。
+	查看分支合并图： git log --graph
 
 	do some test
