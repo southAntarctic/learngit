@@ -2,6 +2,7 @@
 	初始化仓库： git init
 	添加文件到仓库： git add <file>
 	提交： git commit -m <message>
+	
 基本操作：
 	查看状态： git status
 	查看不同： git diff <file>
@@ -11,6 +12,7 @@
 	丢弃工作区修改： git checkout -- file
 	暂存区复原： git reset HEAD <file>
 	删除文件： git rm
+	
 远程库：
 	关联远程库： git remote add origin git@server-name:path/repo-name.git
 	第一次推送master分支所有内容： git push -u origin master
@@ -22,6 +24,7 @@
 	建立本地分支和远程分支的关联： git branch --set-upstream branch-name origin/branch-name
 	从远程抓取分支： git pull
 	把本地未 push 的分叉提交历史整理成直线： git rebase
+
 分支：
 	查看分支： git branch
 	创建分支： git branch <name>
@@ -43,6 +46,4 @@
 	推送全部未推送过的本地标签： git push origin --tags
 	删除一个本地标签： git tag -d <tagname>
 	删除一个远程标签： git push origin :refs/tags/<tagname>
-	
 
-	do some test
