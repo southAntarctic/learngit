@@ -2,6 +2,7 @@
 	初始化仓库： git init
 	添加文件到仓库： git add <file>
 	提交： git commit -m <message>
+	
 基本操作：
 	查看状态： git status
 	查看不同： git diff <file>
@@ -11,10 +12,12 @@
 	丢弃工作区修改： git checkout -- file
 	暂存区复原： git reset HEAD <file>
 	删除文件： git rm
+	
 远程库：
 	关联远程库： git remote add origin git@server-name:path/repo-name.git
 	第一次推送master分支所有内容： git push -u origin master
 	推送最新修改： git push origin master 
+	
 分支：
 	查看分支： git branch
 	创建分支： git branch <name>
