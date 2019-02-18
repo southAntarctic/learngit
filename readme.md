@@ -23,4 +23,4 @@
 	合并分支到当前分支： git merge <name>
 	删除分支： git branch -d <name>
 
-	do do test
+	do some test
